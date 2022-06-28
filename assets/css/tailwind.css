@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.border-gradient-br-blue-green-gray-900 {
+    background: linear-gradient(to right, #18181B, #18181B),
+      linear-gradient(to bottom right, #d9ff00, #ff0180);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+
+  .border-gradient-br-blue-green-white {
+    background: linear-gradient(to right, #ffffff, #ffffff),
+      linear-gradient(to bottom right, #d9ff00, #ff0180);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+
+  .hover\:border-gradient-tl-blue-green-gray-900:hover {
+    background: linear-gradient(to right, #000000, #000000),
+      linear-gradient(to top left, #60A5FA, #4ADE80);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+  
+  .gradient-border-3 {
+    border: 3px solid transparent;
+  }
+
+  .hover\:border-gradient-tl-blue-green-white-900:hover {
+    background: linear-gradient(to right, #ffffff, #ffffff),
+      linear-gradient(to top left, #60A5FA, #4ADE80);
+    background-clip: padding-box, border-box;
+    background-origin: padding-box, border-box;
+  }
+
+
+  .bg-gradient-yellow-pink{
+    background: linear-gradient(to bottom right, #d9ff00, #ff0180);
+  }
+
+  .hover\:border-gradient-tl-blue-green:hover {
+    background: linear-gradient(to top left, #60A5FA, #4ADE80);
+   
+  }
+
+  .glasseffect{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
